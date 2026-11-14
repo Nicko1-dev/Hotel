@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hotel.views.info"
+             Title="info"
+             NavigationPage.HasNavigationBar="False">
+
+    <VerticalStackLayout VerticalOptions="Center" Padding="10">
+        <Label Grid.Row="0" Grid.Column="0"
+         Text="Sobre nós"
+         FontFamily="Exile"
+         FontSize="30"
+         TextColor="Purple"
+         VerticalOptions="Center" 
+         HorizontalOptions="Center"
+         Margin="0,0,10,0" />
+        <Frame>
+            <VerticalStackLayout VerticalOptions="Center">
+                <Grid RowDefinitions="2*, *">
+                    <VerticalStackLayout Margin="10" >
+                        <Label Grid.Row="0" Grid.Column="0"  Text="Este projeto tem como função aplicar os conceitos aprendidos da criação de aplicativos Microsoft. O aplicativo explora diferentes funções e métodos para treino.">
+                           
+                        </Label>
+                        <Image Grid.Row="0" Grid.Column="1" Source="dotnetbot.png"></Image>
+                    </VerticalStackLayout>
+                </Grid>
+                <VerticalStackLayout Margin="10">
+                    <Label Text="© Desenvolvido por Nickolas Macedo"></Label>
+                    <Label Text="Ano de desenvolvimento: 2026"></Label>
+                </VerticalStackLayout>
+            </VerticalStackLayout>
+        </Frame>
+        <Button Text="Voltar"
+                Margin="10"
+                Clicked="Voltar"></Button>
+    </VerticalStackLayout>
+</ContentPage>
