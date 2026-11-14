@@ -65,6 +65,7 @@
                         <HorizontalStackLayout Margin="0,5,0,5">
                             <Label Text="Check-in: " VerticalOptions="Center"></Label>
                             <DatePicker x:Name="dtpck_checkin"
+                                        DateSelected="dtpck_checkin_DateSelected"
                                         Format="dd/MM/yyyy"></DatePicker>
                         </HorizontalStackLayout>
                         <HorizontalStackLayout>
