@@ -35,8 +35,7 @@
                 
                 <Label Grid.Row="1" Grid.Column="0" Text="{Binding DataCheckIn, StringFormat='{}{0:dd/MM/yyyy}'}"></Label>
                 <Label Grid.Row="1" Grid.Column="1" Text="{Binding DataCheckOut, StringFormat='{}{0:dd/MM/yyyy}'}"></Label>
-                <Label Grid.Row="1" Grid.Column="2" Text="{Binding Estadia, StringFormat={}{0} dias}" />
-
+                <Label Grid.Row="1" Grid.Column="2" Text="{Binding Estadia, StringFormat='{}{0} dias'}"></Label>
 
             </Grid>
         </Frame>
