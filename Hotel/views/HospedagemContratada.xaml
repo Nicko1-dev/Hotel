@@ -13,7 +13,7 @@
                FontSize="30">
         </Label>
 
-        <Frame Margin="10">
+        <Frame Margin="10" BackgroundColor="Black">
             <HorizontalStackLayout HorizontalOptions="Center">
                 <HorizontalStackLayout Margin="7">
                     <Label Text="Adultos:"></Label>
@@ -25,7 +25,7 @@
                 </HorizontalStackLayout>
             </HorizontalStackLayout>
         </Frame>
-        <Frame Margin="10">
+        <Frame Margin="10" BackgroundColor="Black">
             <Grid ColumnDefinitions="*,*,*"
                   RowDefinitions="Auto, Auto">
 
@@ -40,7 +40,7 @@
             </Grid>
         </Frame>
 
-        <Frame Margin="10">
+        <Frame Margin="10" BackgroundColor="Black">
             <HorizontalStackLayout HorizontalOptions="Center">
                 <Label Text="Valor total:"></Label>
                 <Label Text="{Binding ValorTotal, StringFormat='{}{0:c}'}"
